@@ -165,3 +165,5 @@ __pycache__
 .DS_Store
 .vscode
 .secret
+.guide 
+apikey.json

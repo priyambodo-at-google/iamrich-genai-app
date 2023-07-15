@@ -1,12 +1,8 @@
 import streamlit as st
 from streamlit.logger import get_logger
-import vertexai
+import authrich
 
-v_PROJECT_ID="work-mylab-machinelearning"
-v_LOCATION="us-central1"
-v_CREDENTIAL=""
-# vertexai.init(project=project_id, location=location, credentials=credentials)
-vertexai.init(project=v_PROJECT_ID, location=v_LOCATION)
+authrich.authenticate()
 LOGGER = get_logger(__name__)
 
 vNoLabel = """
@@ -37,6 +33,7 @@ def run():
     st.markdown(
         """
         This application is maintained by Doddi Priyambodo (priyambodo@google.com)   
+        v1.0.0
         """
     )
     st.image("image/doddihead.png", width=200)
