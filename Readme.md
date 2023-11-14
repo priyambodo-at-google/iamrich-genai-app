@@ -9,4 +9,4 @@
 *   💸 Explore a Stock for Investment
 *   📖 Create Financial Articles Outlines
 
-###Please check the Live Demo of the application in here: https://iamrich-app-rzmyhdhywa-uc.a.run.app/
+###Please check the Live Demo of the application in here: https://iamrich.bicarait.com/
